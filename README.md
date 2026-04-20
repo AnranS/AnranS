@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Coder" height="150" />
+</p>
+
 <h1 align="center">Hey 👋 What's Up?</h1>
 
 <p align="center">
