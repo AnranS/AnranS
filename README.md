@@ -53,14 +53,14 @@
 
 ---
 
-<h3 align="center">🏆 Trophies</h3>
+<h3 align="center">📈 Contribution Graph</h3>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AnranS&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="trophies" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnranS&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=6EC1E4&line=6EC1E4&point=ffffff&area=true" alt="activity graph" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://profile-counter.glitch.me/AnranS/count.svg" alt="visitor count" />
+  <img src="https://komarev.com/ghpvc/?username=AnranS&label=Profile%20Views&color=6EC1E4&style=flat-square" alt="profile views" />
 </p>
