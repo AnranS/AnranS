@@ -16,18 +16,8 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=ts,js,python,go,react,nextjs,nodejs,vue,docker,kubernetes,aws,git&perline=12" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=ts,nodejs,rust,go,python,react,unity&perline=12" alt="Tech Stack" />
   </a>
-</p>
-
-<h3 align="center">🌐 Connect with Me</h3>
-
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/TWITTER-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/DEV.TO-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" /></a>
 </p>
 
 ---
