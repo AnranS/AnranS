@@ -14,17 +14,20 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # Overview card: lifetime commits, repos contributed to, isocalendar etc.
+      # Overview card: lifetime activity, repos contributed to, isocalendar.
+      # metrics commits the SVG straight into the `output` branch — no extra
+      # publish step. main stays clean.
       - name: Overview metrics
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: AnranS
-          filename: dist/metrics.svg
+          filename: metrics.svg
+          committer_branch: output
+          committer_message: "ci(metrics): refresh overview"
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
-          config_padding: 0, 8 + 11%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
@@ -34,9 +37,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: AnranS
-          filename: dist/metrics-languages.svg
+          filename: metrics-languages.svg
+          committer_branch: output
+          committer_message: "ci(metrics): refresh languages"
           base: ""
-          config_padding: 0, 8 + 11%
           plugin_languages: yes
           plugin_languages_ignored: html, css, scss, dockerfile
           plugin_languages_details: bytes-size, percentage
@@ -44,12 +48,3 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_files: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
