@@ -25,8 +25,8 @@
 <h3 align="center">📊 My Stats</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnranS&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=6EC1E4&icon_color=6EC1E4" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnranS&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6EC1E4" height="170" />
+  <img src="https://raw.githubusercontent.com/AnranS/AnranS/output/metrics.svg" alt="GitHub Metrics" width="48%" />
+  <img src="https://raw.githubusercontent.com/AnranS/AnranS/output/metrics-languages.svg" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
