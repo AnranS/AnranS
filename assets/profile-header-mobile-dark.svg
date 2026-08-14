@@ -1,0 +1,42 @@
+<svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anran profile header</title>
+  <desc id="desc">Anran builds game runtimes, WebAssembly tools, and agent infrastructure.</desc>
+  <defs>
+    <linearGradient id="edge" x1="30" y1="22" x2="690" y2="338" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30363D" />
+      <stop offset="0.5" stop-color="#21262D" />
+      <stop offset="1" stop-color="#30363D" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#21262D" stroke-width="1" />
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" />
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="718" height="358" rx="24" fill="#0D1117" stroke="url(#edge)" stroke-width="2" />
+  <rect x="24" y="24" width="672" height="312" rx="16" fill="url(#grid)" opacity="0.82" />
+  <circle cx="656" cy="54" r="70" fill="#58A6FF" opacity="0.13" filter="url(#glow)" />
+  <circle cx="654" cy="310" r="64" fill="#A371F7" opacity="0.12" filter="url(#glow)" />
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="48" y="72" fill="#8B949E" font-size="15" font-weight="600" letter-spacing="3">ANRAN / @ANRANS</text>
+    <text x="44" y="154" fill="#F0F6FC" font-size="54" font-weight="750" letter-spacing="-1.8">Build the runtime.</text>
+    <text x="44" y="216" fill="#F0F6FC" font-size="54" font-weight="750" letter-spacing="-1.8">Ship the idea.</text>
+
+    <rect x="48" y="266" width="14" height="14" rx="4" fill="#A371F7" />
+    <text x="74" y="279" fill="#8B949E" font-size="16" font-weight="600">GAME</text>
+    <rect x="164" y="266" width="14" height="14" rx="4" fill="#58A6FF" />
+    <text x="190" y="279" fill="#8B949E" font-size="16" font-weight="600">WASM</text>
+    <rect x="280" y="266" width="14" height="14" rx="4" fill="#3FB950" />
+    <text x="306" y="279" fill="#8B949E" font-size="16" font-weight="600">AGENTS</text>
+  </g>
+
+  <g transform="translate(590 248)" stroke-linecap="round" stroke-linejoin="round">
+    <rect width="76" height="76" rx="18" fill="#161B22" stroke="#30363D" />
+    <path d="M29 24L15 38L29 52" stroke="#58A6FF" stroke-width="4" />
+    <path d="M47 24L61 38L47 52" stroke="#A371F7" stroke-width="4" />
+    <path d="M43 20L33 56" stroke="#8B949E" stroke-width="3" />
+  </g>
+</svg>
