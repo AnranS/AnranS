@@ -1,6 +1,6 @@
 <svg width="720" height="360" viewBox="0 0 720 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Anran profile header</title>
-  <desc id="desc">Anran builds game runtimes, WebAssembly tools, and agent infrastructure.</desc>
+  <title id="title">Anran learning AI from first principles</title>
+  <desc id="desc">Transformer inference, machine learning systems, and learning in public.</desc>
   <defs>
     <linearGradient id="edge" x1="30" y1="22" x2="690" y2="338" gradientUnits="userSpaceOnUse">
       <stop stop-color="#D0D7DE" />
@@ -21,22 +21,31 @@
   <circle cx="654" cy="310" r="64" fill="#8250DF" opacity="0.08" filter="url(#glow)" />
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <text x="48" y="72" fill="#57606A" font-size="15" font-weight="600" letter-spacing="3">ANRAN / @ANRANS</text>
-    <text x="44" y="154" fill="#24292F" font-size="54" font-weight="750" letter-spacing="-1.8">Build the runtime.</text>
-    <text x="44" y="216" fill="#24292F" font-size="54" font-weight="750" letter-spacing="-1.8">Ship the idea.</text>
+    <text x="48" y="72" fill="#57606A" font-size="15" font-weight="600" letter-spacing="3">ANRAN / LEARNING IN PUBLIC</text>
+    <text x="44" y="148" fill="#24292F" font-size="54" font-weight="750" letter-spacing="-1.8">Learning AI.</text>
+    <text x="44" y="210" fill="#24292F" font-size="48" font-weight="750" letter-spacing="-1.8">From first principles.</text>
 
     <rect x="48" y="266" width="14" height="14" rx="4" fill="#8250DF" />
-    <text x="74" y="279" fill="#57606A" font-size="16" font-weight="600">GAME</text>
+    <text x="74" y="279" fill="#57606A" font-size="16" font-weight="600">MATH</text>
     <rect x="164" y="266" width="14" height="14" rx="4" fill="#0969DA" />
-    <text x="190" y="279" fill="#57606A" font-size="16" font-weight="600">WASM</text>
-    <rect x="280" y="266" width="14" height="14" rx="4" fill="#1A7F37" />
-    <text x="306" y="279" fill="#57606A" font-size="16" font-weight="600">AGENTS</text>
+    <text x="190" y="279" fill="#57606A" font-size="16" font-weight="600">MODEL</text>
+    <rect x="292" y="266" width="14" height="14" rx="4" fill="#1A7F37" />
+    <text x="318" y="279" fill="#57606A" font-size="16" font-weight="600">SYSTEMS</text>
   </g>
 
   <g transform="translate(590 248)" stroke-linecap="round" stroke-linejoin="round">
     <rect width="76" height="76" rx="18" fill="#FFFFFF" stroke="#D0D7DE" />
-    <path d="M29 24L15 38L29 52" stroke="#0969DA" stroke-width="4" />
-    <path d="M47 24L61 38L47 52" stroke="#8250DF" stroke-width="4" />
-    <path d="M43 20L33 56" stroke="#57606A" stroke-width="3" />
+    <g stroke="#57606A" stroke-width="1.5">
+      <path d="M18 23L38 31L59 38" />
+      <path d="M18 38L38 31L59 38" />
+      <path d="M18 38L38 47L59 38" />
+      <path d="M18 53L38 47L59 38" />
+    </g>
+    <circle cx="18" cy="23" r="4" fill="#0969DA" />
+    <circle cx="18" cy="38" r="4" fill="#0969DA" />
+    <circle cx="18" cy="53" r="4" fill="#0969DA" />
+    <circle cx="38" cy="31" r="5" fill="#8250DF" />
+    <circle cx="38" cy="47" r="5" fill="#8250DF" />
+    <circle cx="59" cy="38" r="6" fill="#1A7F37" />
   </g>
 </svg>
