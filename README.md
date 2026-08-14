@@ -17,7 +17,7 @@
 <p align="center">
   <a href="#ai-learning-in-public">AI learning</a> ·
   <a href="#learning-roadmap">Roadmap</a> ·
-  <a href="#systems-background">Systems background</a> ·
+  <a href="#selected-projects">Selected projects</a> ·
   <a href="#toolbox">Toolbox</a>
 </p>
 
@@ -66,21 +66,21 @@ My current focus is not just using models, but understanding what happens betwee
 
 My learning loop is deliberately engineering-heavy: derive the operation, inspect the shapes, implement the smallest correct version, lock it down with tests, compare against a trusted reference, and only then optimize it.
 
-## Systems background
+## Selected projects
 
-The same systems mindset shows up in the tools I build outside the learning project:
+Alongside the inference engine, these projects show how I turn learning into reusable material and ship systems-focused products:
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/AnranS/pi_spark">pi-spark</a></h3>
-      <p>A PostgreSQL-backed distributed run engine for durable agent workloads, with leases, fencing, retries, and capability routing.</p>
-      <p><code>TypeScript</code> <code>PostgreSQL</code> <code>Docker</code></p>
+      <h3><a href="https://github.com/AnranS/transformer-inference-from-scratch/blob/master/docs/README.md">Transformer Learning Lab</a></h3>
+      <p>A self-contained AI learning path with 40 units, 28 day guides, concept notes, executable notebooks, test-driven implementations, and explicit graduation gates.</p>
+      <p><code>AI Learning</code> <code>Notebooks</code> <code>TDD</code></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/AnranS/repo-maestro">Repo Maestro</a></h3>
-      <p>A local-first multi-repo workflow orchestrator that plans dependency-aware changes as auditable DAGs.</p>
-      <p><code>Rust</code> <code>React</code> <code>Developer Tools</code></p>
+      <h3><a href="https://github.com/AnranS/DesktopPulse">DesktopPulse</a></h3>
+      <p>A native macOS WidgetKit dashboard for system health, weather, and privacy-conscious Codex, Cursor, Claude Code, and Grok usage snapshots.</p>
+      <p><code>Swift</code> <code>SwiftUI</code> <code>WidgetKit</code></p>
     </td>
   </tr>
   <tr>
