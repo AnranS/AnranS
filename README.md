@@ -107,27 +107,6 @@ The same systems mindset shows up in the tools I build outside the learning proj
   <sub>Transformer inference · ML systems · runtime engineering · developer tooling</sub>
 </p>
 
-## GitHub at a glance
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnranS/AnranS/output/metrics.svg" alt="Anran's GitHub activity overview" width="100%" />
-</p>
-
-<details>
-  <summary><strong>Languages and contribution trail</strong></summary>
-  <br />
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/AnranS/AnranS/output/metrics-languages.svg" alt="Most-used languages across Anran's repositories" width="62%" />
-  </p>
-  <p align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnranS/AnranS/output/github-contribution-grid-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnranS/AnranS/output/github-contribution-grid-snake.svg" />
-      <img src="https://raw.githubusercontent.com/AnranS/AnranS/output/github-contribution-grid-snake.svg" alt="GitHub contribution trail" width="100%" />
-    </picture>
-  </p>
-</details>
-
 <br />
 
 <p align="center">
