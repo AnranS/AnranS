@@ -1,13 +1,13 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Anran profile header</title>
-  <desc id="desc">Anran builds game runtimes, WebAssembly tools, and agent infrastructure.</desc>
+  <title id="title">Anran learning AI from first principles</title>
+  <desc id="desc">Transformer inference, machine learning systems, and learning in public.</desc>
   <defs>
     <linearGradient id="edge" x1="48" y1="24" x2="1152" y2="296" gradientUnits="userSpaceOnUse">
       <stop stop-color="#D0D7DE" />
       <stop offset="0.5" stop-color="#E6E9ED" />
       <stop offset="1" stop-color="#D0D7DE" />
     </linearGradient>
-    <linearGradient id="accent" x1="722" y1="52" x2="1110" y2="268" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="838" y1="116" x2="930" y2="204" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0969DA" />
       <stop offset="0.52" stop-color="#8250DF" />
       <stop offset="1" stop-color="#1A7F37" />
@@ -22,17 +22,16 @@
 
   <rect x="1" y="1" width="1198" height="318" rx="24" fill="#F6F8FA" stroke="url(#edge)" stroke-width="2" />
   <rect x="24" y="24" width="1152" height="272" rx="16" fill="url(#grid)" opacity="0.72" />
-
   <g opacity="0.1" filter="url(#glow)">
     <circle cx="1012" cy="74" r="78" fill="#0969DA" />
     <circle cx="1110" cy="232" r="72" fill="#8250DF" />
   </g>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    <text x="68" y="76" fill="#57606A" font-size="15" font-weight="600" letter-spacing="3">ANRAN / @ANRANS</text>
-    <text x="64" y="146" fill="#24292F" font-size="50" font-weight="750" letter-spacing="-1.8">Build the runtime.</text>
-    <text x="64" y="202" fill="#24292F" font-size="50" font-weight="750" letter-spacing="-1.8">Ship the idea.</text>
-    <text x="68" y="252" fill="#57606A" font-size="16" font-weight="500">GAME RUNTIMES  ·  WEBASSEMBLY  ·  AGENT INFRASTRUCTURE</text>
+    <text x="68" y="76" fill="#57606A" font-size="15" font-weight="600" letter-spacing="3">ANRAN / LEARNING IN PUBLIC</text>
+    <text x="64" y="146" fill="#24292F" font-size="50" font-weight="750" letter-spacing="-1.8">Learning AI.</text>
+    <text x="64" y="202" fill="#24292F" font-size="50" font-weight="750" letter-spacing="-1.8">From first principles.</text>
+    <text x="68" y="252" fill="#57606A" font-size="16" font-weight="500">TRANSFORMERS  ·  INFERENCE  ·  ML SYSTEMS</text>
   </g>
 
   <g stroke-linecap="round" stroke-linejoin="round">
@@ -46,23 +45,32 @@
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
     <rect x="838" y="116" width="92" height="88" rx="18" fill="#FFFFFF" stroke="url(#accent)" stroke-width="2" />
-    <path d="M868 145L851 160L868 175" stroke="#0969DA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M900 145L917 160L900 175" stroke="#8250DF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
-    <path d="M892 140L876 180" stroke="#57606A" stroke-width="3" stroke-linecap="round" />
+    <g stroke="#57606A" stroke-width="1.6">
+      <path d="M858 143L883 151L909 160" />
+      <path d="M858 160L883 151L909 160" />
+      <path d="M858 160L883 169L909 160" />
+      <path d="M858 177L883 169L909 160" />
+    </g>
+    <circle cx="858" cy="143" r="5" fill="#0969DA" />
+    <circle cx="858" cy="160" r="5" fill="#0969DA" />
+    <circle cx="858" cy="177" r="5" fill="#0969DA" />
+    <circle cx="883" cy="151" r="6" fill="#8250DF" />
+    <circle cx="883" cy="169" r="6" fill="#8250DF" />
+    <circle cx="909" cy="160" r="7" fill="#1A7F37" />
 
     <rect x="974" y="48" width="148" height="76" rx="14" fill="#FFFFFF" stroke="#D0D7DE" />
     <circle cx="998" cy="72" r="6" fill="#8250DF" />
-    <text x="1014" y="78" fill="#24292F" font-size="15" font-weight="700">GAME</text>
-    <text x="996" y="103" fill="#57606A" font-size="12">portable</text>
+    <text x="1014" y="78" fill="#24292F" font-size="15" font-weight="700">MATH</text>
+    <text x="996" y="103" fill="#57606A" font-size="12">derive</text>
 
     <rect x="974" y="122" width="148" height="76" rx="14" fill="#FFFFFF" stroke="#D0D7DE" />
     <circle cx="998" cy="146" r="6" fill="#0969DA" />
-    <text x="1014" y="152" fill="#24292F" font-size="15" font-weight="700">WASM</text>
-    <text x="996" y="177" fill="#57606A" font-size="12">fast · small</text>
+    <text x="1014" y="152" fill="#24292F" font-size="15" font-weight="700">MODEL</text>
+    <text x="996" y="177" fill="#57606A" font-size="12">implement</text>
 
     <rect x="974" y="196" width="148" height="76" rx="14" fill="#FFFFFF" stroke="#D0D7DE" />
     <circle cx="998" cy="220" r="6" fill="#1A7F37" />
-    <text x="1014" y="226" fill="#24292F" font-size="15" font-weight="700">AGENTS</text>
-    <text x="996" y="251" fill="#57606A" font-size="12">durable</text>
+    <text x="1014" y="226" fill="#24292F" font-size="15" font-weight="700">SYSTEMS</text>
+    <text x="996" y="251" fill="#57606A" font-size="12">measure</text>
   </g>
 </svg>
