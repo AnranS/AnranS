@@ -1,0 +1,68 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anran profile header</title>
+  <desc id="desc">Anran builds game runtimes, WebAssembly tools, and agent infrastructure.</desc>
+  <defs>
+    <linearGradient id="edge" x1="48" y1="24" x2="1152" y2="296" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30363D" />
+      <stop offset="0.5" stop-color="#21262D" />
+      <stop offset="1" stop-color="#30363D" />
+    </linearGradient>
+    <linearGradient id="accent" x1="722" y1="52" x2="1110" y2="268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58A6FF" />
+      <stop offset="0.52" stop-color="#A371F7" />
+      <stop offset="1" stop-color="#3FB950" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#21262D" stroke-width="1" />
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" />
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="318" rx="24" fill="#0D1117" stroke="url(#edge)" stroke-width="2" />
+  <rect x="24" y="24" width="1152" height="272" rx="16" fill="url(#grid)" opacity="0.82" />
+
+  <g opacity="0.18" filter="url(#glow)">
+    <circle cx="1012" cy="74" r="78" fill="#58A6FF" />
+    <circle cx="1110" cy="232" r="72" fill="#A371F7" />
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <text x="68" y="76" fill="#8B949E" font-size="15" font-weight="600" letter-spacing="3">ANRAN / @ANRANS</text>
+    <text x="64" y="146" fill="#F0F6FC" font-size="50" font-weight="750" letter-spacing="-1.8">Build the runtime.</text>
+    <text x="64" y="202" fill="#F0F6FC" font-size="50" font-weight="750" letter-spacing="-1.8">Ship the idea.</text>
+    <text x="68" y="252" fill="#8B949E" font-size="16" font-weight="500">GAME RUNTIMES  ·  WEBASSEMBLY  ·  AGENT INFRASTRUCTURE</text>
+  </g>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <path d="M766 160H838" stroke="#58A6FF" stroke-width="2" stroke-dasharray="5 7" />
+    <path d="M929 115L970 88" stroke="#A371F7" stroke-width="2" stroke-dasharray="5 7" />
+    <path d="M929 205L970 232" stroke="#3FB950" stroke-width="2" stroke-dasharray="5 7" />
+    <circle cx="762" cy="160" r="4" fill="#58A6FF" />
+    <circle cx="974" cy="86" r="4" fill="#A371F7" />
+    <circle cx="974" cy="234" r="4" fill="#3FB950" />
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <rect x="838" y="116" width="92" height="88" rx="18" fill="#161B22" stroke="url(#accent)" stroke-width="2" />
+    <path d="M868 145L851 160L868 175" stroke="#58A6FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M900 145L917 160L900 175" stroke="#A371F7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M892 140L876 180" stroke="#8B949E" stroke-width="3" stroke-linecap="round" />
+
+    <rect x="974" y="48" width="148" height="76" rx="14" fill="#161B22" stroke="#30363D" />
+    <circle cx="998" cy="72" r="6" fill="#A371F7" />
+    <text x="1014" y="78" fill="#F0F6FC" font-size="15" font-weight="700">GAME</text>
+    <text x="996" y="103" fill="#8B949E" font-size="12">portable</text>
+
+    <rect x="974" y="122" width="148" height="76" rx="14" fill="#161B22" stroke="#30363D" />
+    <circle cx="998" cy="146" r="6" fill="#58A6FF" />
+    <text x="1014" y="152" fill="#F0F6FC" font-size="15" font-weight="700">WASM</text>
+    <text x="996" y="177" fill="#8B949E" font-size="12">fast · small</text>
+
+    <rect x="974" y="196" width="148" height="76" rx="14" fill="#161B22" stroke="#30363D" />
+    <circle cx="998" cy="220" r="6" fill="#3FB950" />
+    <text x="1014" y="226" fill="#F0F6FC" font-size="15" font-weight="700">AGENTS</text>
+    <text x="996" y="251" fill="#8B949E" font-size="12">durable</text>
+  </g>
+</svg>
