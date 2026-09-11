@@ -1,78 +1,70 @@
+### Hi there 👋
+
+I'm **Anran**! 😎
+
+I like building inference engines, developer tools, and apps that make everyday work a little easier. 🛠️
+
+📃 Some technologies I work with:
+<br><br>
+![Rust](https://img.shields.io/badge/Rust-20232A?style=for-the-badge&logo=rust&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=for-the-badge&logo=webassembly&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
+
+⭐ Here are some of my projects:
+
+- [nano-vllm-rs](https://github.com/AnranS/nano-vllm-rs) — Qwen3 inference in Rust + CUDA, on a single GPU.
+- [Godot Mini Game](https://github.com/AnranS/godot_for_minigame) — export Godot games to WeChat and Douyin; TikTok Native in beta.
+- [wasm-split](https://github.com/AnranS/wasm-split-tool) — split large WebAssembly modules and load code on demand.
+- [DesktopPulse](https://github.com/AnranS/DesktopPulse) — native macOS widgets for system health, weather, and AI-tool usage.
+- [TikTok Mini Game Unity Demo](https://github.com/AnranS/tiktok-minigame-unity-demo) — SDK examples across 14 API categories.
+- [Inline Vocabulary Translator](https://github.com/AnranS/inline-vocab-translator) — translate while reading and sync vocabulary across devices.
+
+<details>
+<summary>🏆 GitHub stats</summary>
+<br>
+<img src="https://raw.githubusercontent.com/AnranS/AnranS/output/metrics.svg" width="500" alt="Anran's GitHub activity and contribution statistics" />
+
+</details>
+
+<details>
+<summary>🐍 Contribution activity</summary>
+<br>
 <picture>
-  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/engineering-header-mobile-dark.svg" />
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/engineering-header-mobile-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/engineering-header-dark.svg" />
-  <img src="./assets/engineering-header-light.svg" width="100%" alt="Anran — inference systems, runtimes, and developer tools. Rust, CUDA, and WebAssembly." />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnranS/AnranS/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/AnranS/AnranS/output/github-contribution-grid-snake.svg" width="100%" alt="Snake animation of Anran's GitHub contribution grid" />
 </picture>
 
-<p>
-  <a href="#featured-work">Featured work</a> &nbsp; / &nbsp;
-  <a href="#across-the-stack">Across the stack</a> &nbsp; / &nbsp;
-  <a href="#built-with">Built with</a>
-</p>
+</details>
 
-I build software close to the runtime: **LLM inference, WebAssembly tooling, game-engine integrations, and native macOS apps.** I care about correctness you can check, experiments you can reproduce, and tools you can use.
+<details>
+<summary>🔬 Inference experiments</summary>
 
-## Featured work
+I'm working on **nano-vllm-rs**, a Rust + CUDA inference engine whose inference process runs without Python, PyTorch, or libtorch.
 
-<table>
-<tr><td>
-<sub>01 &nbsp; / &nbsp; INFERENCE SYSTEMS</sub>
-<h2><a href="https://github.com/AnranS/nano-vllm-rs">nano-vllm-rs ↗</a></h2>
-<p><strong>Qwen3 inference. Rust + CUDA. One GPU.</strong></p>
-<p>A native inference engine with paged attention and an optional FlashAttention backend. The inference process runs without Python, PyTorch, or libtorch.</p>
-<p><code>Rust</code> <code>CUDA</code> <code>Qwen3</code> <code>BF16</code></p>
-<p><a href="https://github.com/AnranS/nano-vllm-rs#本机快速开始"><strong>Build &amp; run →</strong></a> &nbsp; · &nbsp; <a href="https://github.com/AnranS/nano-vllm-rs/blob/main/ATTENTION.md">Attention validation</a> &nbsp; · &nbsp; <a href="https://github.com/AnranS/nano-vllm-rs/blob/main/STRESS_TEST.md">Stress tests</a></p>
-<p><sub>Validated on Qwen3-0.6B. FlashAttention is experimental; known chunked-output differences are documented in the validation report.</sub></p>
-</td></tr>
-</table>
+- [Build and run](https://github.com/AnranS/nano-vllm-rs#本机快速开始)
+- [Attention validation](https://github.com/AnranS/nano-vllm-rs/blob/main/ATTENTION.md)
+- [Stress tests and reproducible results](https://github.com/AnranS/nano-vllm-rs/blob/main/STRESS_TEST.md)
 
-## Across the stack
+Current validation targets Qwen3-0.6B. FlashAttention is optional and experimental; known chunked-output differences are documented in the validation report.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<sub>02 &nbsp; / &nbsp; ENGINE TOOLING</sub>
-<h3><a href="https://github.com/AnranS/godot_for_minigame">Godot Mini Game ↗</a></h3>
-<p>Bring Godot games to WeChat and Douyin Mini Games, with TikTok Native in beta. Engine bundles, platform SDKs, and validated exports in one editor workflow.</p>
-<p><code>Godot</code> <code>GDScript</code> <code>WASM</code></p>
-<p><a href="https://anrans.github.io/godot_for_minigame/">Documentation</a> · <a href="https://github.com/AnranS/godot_for_minigame/releases">Releases</a></p>
-</td>
-<td width="50%" valign="top">
-<sub>03 &nbsp; / &nbsp; RUNTIME ENGINEERING</sub>
-<h3><a href="https://github.com/AnranS/wasm-split-tool">wasm-split ↗</a></h3>
-<p>Load large WebAssembly modules in stages. Profile-guided hot/cold splitting pairs a Rust CLI with a TypeScript runtime for code loaded on demand.</p>
-<p><code>Rust</code> <code>WebAssembly</code> <code>TypeScript</code></p>
-<p><a href="https://github.com/AnranS/wasm-split-tool#how-it-works">Architecture</a> · <a href="https://github.com/AnranS/wasm-split-tool#performance">Performance</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<sub>04 &nbsp; / &nbsp; NATIVE APPS</sub>
-<h3><a href="https://github.com/AnranS/DesktopPulse">DesktopPulse ↗</a></h3>
-<p>System health, weather, and AI-tool usage on the macOS desktop. Native WidgetKit widgets powered by a local menu-bar app, with glass and cyberpunk appearances.</p>
-<p><code>Swift</code> <code>SwiftUI</code> <code>WidgetKit</code></p>
-<p><a href="https://github.com/AnranS/DesktopPulse#运行">Build &amp; setup</a></p>
-</td>
-<td width="50%" valign="top">
-<sub>05 &nbsp; / &nbsp; EVERYDAY TOOLS</sub>
-<h3><a href="https://github.com/AnranS/inline-vocab-translator">Inline Vocabulary ↗</a></h3>
-<p>Chinese-to-English translation where you read. Select text, highlight vocabulary you are learning, and sync across devices through GitHub Gist or Google Drive.</p>
-<p><code>JavaScript</code> <code>Browser tooling</code></p>
-<p><a href="https://github.com/AnranS/inline-vocab-translator">Explore the project</a></p>
-</td>
-</tr>
-</table>
+</details>
 
-**Also built:** [TikTok Mini Game Unity Demo](https://github.com/AnranS/tiktok-minigame-unity-demo) — SDK integration examples across 14 API categories, with bilingual documentation.
+<details>
+<summary>📚 Project docs and guides</summary>
 
-## Built with
+- [Godot Mini Game documentation](https://anrans.github.io/godot_for_minigame/)
+- [Godot Mini Game releases](https://github.com/AnranS/godot_for_minigame/releases)
+- [How wasm-split works](https://github.com/AnranS/wasm-split-tool#how-it-works)
+- [wasm-split performance](https://github.com/AnranS/wasm-split-tool#performance)
+- [DesktopPulse setup](https://github.com/AnranS/DesktopPulse#运行)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust%2Cpython%2Ccpp%2Cwasm%2Cts%2Cswift%2Cgodot%2Cgit&amp;theme=dark&amp;perline=8" />
-  <img src="https://skillicons.dev/icons?i=rust%2Cpython%2Ccpp%2Cwasm%2Cts%2Cswift%2Cgodot%2Cgit&amp;theme=light&amp;perline=8" width="384" alt="Rust, Python, C++, WebAssembly, TypeScript, Swift, Godot, and Git" />
-</picture>
+</details>
 
-<br />
+<br>
 
-<sub>Explore the code, run an experiment, or open an issue in the relevant repository.</sub>
+Have an idea or feedback? Feel free to open an issue in the relevant project. 😋
+
+[![GitHub](https://img.shields.io/badge/GitHub-%40AnranS-181717?logo=github&logoColor=white)](https://github.com/AnranS?tab=repositories)
