@@ -1,10 +1,18 @@
 # Hi, I'm Anran
 
-**I build runtimes, developer tools, and native apps.**
+**I build inference systems, runtimes, and developer tools.**
 
-My work spans WebAssembly loading, game-engine integrations, and macOS utilities. I like making complex systems easier to ship: smaller startup payloads, repeatable exports, and tools that fit into everyday workflows.
+My work spans LLM inference, WebAssembly loading, game-engine integrations, and macOS utilities. I like making complex systems easier to inspect and ship, with explicit correctness checks, reproducible experiments, and practical tooling.
 
 ## Selected work
+
+### [nano-vllm-rs](https://github.com/AnranS/nano-vllm-rs)
+
+A single-GPU Qwen3 inference engine in Rust and CUDA, with paged attention and an optional FlashAttention backend. The Rust inference process runs without Python, PyTorch, or libtorch. Current validation targets Qwen3-0.6B; FlashAttention remains experimental, with known chunked-output differences documented alongside the results.
+
+`Rust` · `CUDA` · `LLM inference`
+
+[Build and run](https://github.com/AnranS/nano-vllm-rs#本机快速开始) · [Attention validation](https://github.com/AnranS/nano-vllm-rs/blob/main/ATTENTION.md) · [Stress tests](https://github.com/AnranS/nano-vllm-rs/blob/main/STRESS_TEST.md)
 
 ### [Godot Mini Game](https://github.com/AnranS/godot_for_minigame)
 
