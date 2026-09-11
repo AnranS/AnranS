@@ -25,7 +25,7 @@ I like building inference engines, developer tools, and apps that make everyday 
 <details>
 <summary>🏆 GitHub stats</summary>
 <br>
-<img src="https://raw.githubusercontent.com/AnranS/AnranS/output/metrics.svg" width="500" alt="Anran's GitHub activity and contribution statistics" />
+<img src="./assets/public-profile-stats.svg" width="500" alt="Anran's public GitHub profile statistics, dated snapshot" />
 
 </details>
 
