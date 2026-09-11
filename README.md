@@ -69,8 +69,8 @@ I build software close to the runtime: **LLM inference, WebAssembly tooling, gam
 ## Built with
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust,python,cpp,wasm,ts,swift,godot,git&amp;theme=dark&amp;perline=8" />
-  <img src="https://skillicons.dev/icons?i=rust,python,cpp,wasm,ts,swift,godot,git&amp;theme=light&amp;perline=8" width="384" alt="Rust, Python, C++, WebAssembly, TypeScript, Swift, Godot, and Git" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust%2Cpython%2Ccpp%2Cwasm%2Cts%2Cswift%2Cgodot%2Cgit&amp;theme=dark&amp;perline=8" />
+  <img src="https://skillicons.dev/icons?i=rust%2Cpython%2Ccpp%2Cwasm%2Cts%2Cswift%2Cgodot%2Cgit&amp;theme=light&amp;perline=8" width="384" alt="Rust, Python, C++, WebAssembly, TypeScript, Swift, Godot, and Git" />
 </picture>
 
 <br />
