@@ -1,46 +1,78 @@
-# Hi, I'm Anran
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="./assets/engineering-header-mobile-dark.svg" />
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/engineering-header-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/engineering-header-dark.svg" />
+  <img src="./assets/engineering-header-light.svg" width="100%" alt="Anran — inference systems, runtimes, and developer tools. Rust, CUDA, and WebAssembly." />
+</picture>
 
-**I build inference systems, runtimes, and developer tools.**
+<p>
+  <a href="#featured-work">Featured work</a> &nbsp; / &nbsp;
+  <a href="#across-the-stack">Across the stack</a> &nbsp; / &nbsp;
+  <a href="#built-with">Built with</a>
+</p>
 
-My work spans LLM inference, WebAssembly loading, game-engine integrations, and macOS utilities. I like making complex systems easier to inspect and ship, with explicit correctness checks, reproducible experiments, and practical tooling.
+I build software close to the runtime: **LLM inference, WebAssembly tooling, game-engine integrations, and native macOS apps.** I care about correctness you can check, experiments you can reproduce, and tools you can use.
 
-## Selected work
+## Featured work
 
-### [nano-vllm-rs](https://github.com/AnranS/nano-vllm-rs)
+<table>
+<tr><td>
+<sub>01 &nbsp; / &nbsp; INFERENCE SYSTEMS</sub>
+<h2><a href="https://github.com/AnranS/nano-vllm-rs">nano-vllm-rs ↗</a></h2>
+<p><strong>Qwen3 inference. Rust + CUDA. One GPU.</strong></p>
+<p>A native inference engine with paged attention and an optional FlashAttention backend. The inference process runs without Python, PyTorch, or libtorch.</p>
+<p><code>Rust</code> <code>CUDA</code> <code>Qwen3</code> <code>BF16</code></p>
+<p><a href="https://github.com/AnranS/nano-vllm-rs#本机快速开始"><strong>Build &amp; run →</strong></a> &nbsp; · &nbsp; <a href="https://github.com/AnranS/nano-vllm-rs/blob/main/ATTENTION.md">Attention validation</a> &nbsp; · &nbsp; <a href="https://github.com/AnranS/nano-vllm-rs/blob/main/STRESS_TEST.md">Stress tests</a></p>
+<p><sub>Validated on Qwen3-0.6B. FlashAttention is experimental; known chunked-output differences are documented in the validation report.</sub></p>
+</td></tr>
+</table>
 
-A single-GPU Qwen3 inference engine in Rust and CUDA, with paged attention and an optional FlashAttention backend. The Rust inference process runs without Python, PyTorch, or libtorch. Current validation targets Qwen3-0.6B; FlashAttention remains experimental, with known chunked-output differences documented alongside the results.
+## Across the stack
 
-`Rust` · `CUDA` · `LLM inference`
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>02 &nbsp; / &nbsp; ENGINE TOOLING</sub>
+<h3><a href="https://github.com/AnranS/godot_for_minigame">Godot Mini Game ↗</a></h3>
+<p>Bring Godot games to WeChat and Douyin Mini Games, with TikTok Native in beta. Engine bundles, platform SDKs, and validated exports in one editor workflow.</p>
+<p><code>Godot</code> <code>GDScript</code> <code>WASM</code></p>
+<p><a href="https://anrans.github.io/godot_for_minigame/">Documentation</a> · <a href="https://github.com/AnranS/godot_for_minigame/releases">Releases</a></p>
+</td>
+<td width="50%" valign="top">
+<sub>03 &nbsp; / &nbsp; RUNTIME ENGINEERING</sub>
+<h3><a href="https://github.com/AnranS/wasm-split-tool">wasm-split ↗</a></h3>
+<p>Load large WebAssembly modules in stages. Profile-guided hot/cold splitting pairs a Rust CLI with a TypeScript runtime for code loaded on demand.</p>
+<p><code>Rust</code> <code>WebAssembly</code> <code>TypeScript</code></p>
+<p><a href="https://github.com/AnranS/wasm-split-tool#how-it-works">Architecture</a> · <a href="https://github.com/AnranS/wasm-split-tool#performance">Performance</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>04 &nbsp; / &nbsp; NATIVE APPS</sub>
+<h3><a href="https://github.com/AnranS/DesktopPulse">DesktopPulse ↗</a></h3>
+<p>System health, weather, and AI-tool usage on the macOS desktop. Native WidgetKit widgets powered by a local menu-bar app, with glass and cyberpunk appearances.</p>
+<p><code>Swift</code> <code>SwiftUI</code> <code>WidgetKit</code></p>
+<p><a href="https://github.com/AnranS/DesktopPulse#运行">Build &amp; setup</a></p>
+</td>
+<td width="50%" valign="top">
+<sub>05 &nbsp; / &nbsp; EVERYDAY TOOLS</sub>
+<h3><a href="https://github.com/AnranS/inline-vocab-translator">Inline Vocabulary ↗</a></h3>
+<p>Chinese-to-English translation where you read. Select text, highlight vocabulary you are learning, and sync across devices through GitHub Gist or Google Drive.</p>
+<p><code>JavaScript</code> <code>Browser tooling</code></p>
+<p><a href="https://github.com/AnranS/inline-vocab-translator">Explore the project</a></p>
+</td>
+</tr>
+</table>
 
-[Build and run](https://github.com/AnranS/nano-vllm-rs#本机快速开始) · [Attention validation](https://github.com/AnranS/nano-vllm-rs/blob/main/ATTENTION.md) · [Stress tests](https://github.com/AnranS/nano-vllm-rs/blob/main/STRESS_TEST.md)
+**Also built:** [TikTok Mini Game Unity Demo](https://github.com/AnranS/tiktok-minigame-unity-demo) — SDK integration examples across 14 API categories, with bilingual documentation.
 
-### [Godot Mini Game](https://github.com/AnranS/godot_for_minigame)
+## Built with
 
-Export Godot 4 games to WeChat and Douyin Mini Games, with TikTok Native support in beta. An editor-native workflow brings engine bundles, platform SDKs, export validation, and release packaging together.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust,python,cpp,wasm,ts,swift,godot,git&amp;theme=dark&amp;perline=8" />
+  <img src="https://skillicons.dev/icons?i=rust,python,cpp,wasm,ts,swift,godot,git&amp;theme=light&amp;perline=8" width="384" alt="Rust, Python, C++, WebAssembly, TypeScript, Swift, Godot, and Git" />
+</picture>
 
-`Godot` · `GDScript` · `JavaScript` · `WebAssembly`
+<br />
 
-[Documentation](https://anrans.github.io/godot_for_minigame/) · [Releases](https://github.com/AnranS/godot_for_minigame/releases)
-
-### [wasm-split](https://github.com/AnranS/wasm-split-tool)
-
-A Rust splitter and TypeScript runtime for loading large WebAssembly modules in stages. Profile-guided hot/cold splitting keeps startup code separate from code loaded on demand; archive mode compiles cold functions into individual micro-modules.
-
-`Rust` · `WebAssembly` · `TypeScript`
-
-[How it works](https://github.com/AnranS/wasm-split-tool#how-it-works) · [Performance](https://github.com/AnranS/wasm-split-tool#performance)
-
-### [DesktopPulse](https://github.com/AnranS/DesktopPulse)
-
-Native macOS widgets for system health, weather, and AI-tool usage. A local menu-bar app supplies data to WidgetKit, with separate glass and cyberpunk appearances.
-
-`Swift` · `SwiftUI` · `WidgetKit`
-
-[Build and setup](https://github.com/AnranS/DesktopPulse#运行)
-
-## More tools
-
-- **[TikTok Mini Game Unity Demo](https://github.com/AnranS/tiktok-minigame-unity-demo)** — Unity SDK integration examples across 14 API categories, with bilingual documentation.
-- **[Inline Vocabulary Translator](https://github.com/AnranS/inline-vocab-translator)** — Chinese-to-English selection translation, vocabulary highlighting, and cross-device sync.
-
-For implementation details, setup instructions, or feedback, start with the linked repository.
+<sub>Explore the code, run an experiment, or open an issue in the relevant repository.</sub>
