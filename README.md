@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/anran-dog-banner.png" width="100%" alt="Anran — inference systems, runtimes, and developer tools. Anran’s gray-and-tan dog, with upright ears and a leaf-shaped hair clip, illustrated at a laptop." />
+  <img src="./assets/anran-dog-cartoon-banner.png" width="100%" alt="Anran — inference systems, runtimes, and developer tools. Anran’s gray-and-tan dog, with upright ears and a leaf-shaped hair clip, as a playful cartoon at a laptop." />
 </p>
 
 <p align="center">
