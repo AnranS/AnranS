@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/anran-fish-banner.png" width="100%" alt="Anran — inference, runtimes, tools. A chibi blue-haired whale girl in a maid outfit eating a big bowl of rice at a laptop." />
+  <img src="./assets/anran-fish-ocean-banner.png" width="100%" alt="Anran — inference, runtimes, tools. A chibi blue-haired whale girl in a maid outfit eating a big bowl of rice at a laptop on the seabed." />
 </p>
 
 Hi, I'm **Anran**. I work on LLM inference and AI infrastructure, and I learn by building things from scratch, running them, and measuring the results.
